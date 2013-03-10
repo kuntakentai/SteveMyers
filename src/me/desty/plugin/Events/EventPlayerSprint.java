@@ -23,7 +23,7 @@ public class EventPlayerSprint implements Listener {
 					if (player.isSprinting() == true) {
 						if (plugin.disguiseList.containsKey(player)) {
 							plugin.dcAPI.disguisePlayer(player, plugin.disguiseList.get(player));
-							player.sendMessage("nips"); // dans titties
+							player.sendMessage("nips"); // dans tittie
 						}
 					}
 					if (player.isSprinting() == false) {
