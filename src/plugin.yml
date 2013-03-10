@@ -1,0 +1,25 @@
+name: SteveMyers
+main: me.desty.plugin.SteveMyers
+version: 1.00.0
+author: d3sty
+depend: [DisguiseCraft]
+description: Game of Micheal Myers anybody?
+commands:
+  sm:
+    description: Queue into a Steve Myers game.
+    usage: /<command>
+  setlobby:
+    description: Set Your Lobbies!
+    usage: /<command> (runner/myers/max)
+  world:
+    description: Check if game is ready to run
+    usage: /<command>
+  money:
+    description: money stuff
+    usage: /<command>
+  shop:
+    description: buy disguises
+    usage: /<command>
+  select:
+    description: select unlocked disguises
+    usage: /<command>
